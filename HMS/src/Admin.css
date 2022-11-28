@@ -1,0 +1,38 @@
+/* .col-container {
+    display: table; /* Make the container element behave like a table */
+    /* width: 100%; Set full-width to expand the whole page
+  }
+   */
+  /* .col {
+    display: table-cell; Make elements inside the container behave like table cells */
+    /* background-color: aqua;
+    width: 30%;
+    outline-color: aliceblue;
+  }  */
+  .col-container {
+    display: flex;
+    width: 100%;
+  }
+  .col {
+    background-color: aqua;
+    flex: 1;
+    padding: 16px;
+    outline-color: black;
+    border: solid;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .img{
+    width: 90px;
+    Height: 90px;
+  }
+
+  /* If the browser window is smaller than 600px, make the columns stack on top of each other */
+/* @media only screen and (max-width: 600px) {
+    .col {
+      display: block;
+      width: 100%;
+    }
+  } */

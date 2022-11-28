@@ -1,0 +1,83 @@
+html, body,.divhome {
+    background-color: white;
+}
+
+.Pages {
+    /* padding-left: 10%; */
+    padding-top: 10%;
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+}
+
+/* .col-container {
+    display: flex;
+    width: 100%;
+  } */
+  .col-cont2 {
+    /* background-color: aqua; */
+    flex: 1;
+    width: 100%;
+    /* outline-color: black; */
+    /* border: solid; */
+    /* margin-left: 5%; */
+    /* margin-right: 5%; */
+    /* margin-top: 12px;
+    margin-bottom: 12px; */
+  }
+
+  .Appointment {
+    background-color: rgb(52, 192, 192);
+    /* padding: 16px; */
+    outline-color: black;
+    border: solid;
+    margin-left: 40%;
+    /* margin-right: 5px; */
+    /* margin-top: 12px;
+    margin-bottom: 12px;   */
+    width: 30%;
+    height:80%;
+    text-align: center;
+  }
+  /* .imgs {
+    margin-left: 10%;
+    width: 100%;
+    height: 80%;
+  } */
+  .col-containers{
+        display: flex;
+        width: 50%;
+       margin-left: 50%;
+  }
+ .colh{
+    background-color: blue;
+    border: 0ch;
+    padding: 0;
+ }
+
+ .imghome {
+    /* margin-top: 3%; */
+    width: 100%;
+    height: 50%;
+ }
+
+ .headerdiv {
+    background-color: blue;
+    /* height: '100px'; */
+    height: 20%;
+ }
+
+ .homeimg{
+    position: relative;
+    color: white;
+    height: 50%;
+ }
+ .center__text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+ .heading{
+    font-size:100px;
+ }
